@@ -1,9 +1,29 @@
-const character = 'luigi'
+let age: any = 25;
 
-console.log(character);
+age = true
+console.log(age);
+age = 'hello'
+console.log(age);
+age = { name: 'luigi' }
+console.log(age);
 
-const inputs = document.querySelectorAll('input')
+let mixed: any[] = [];
 
-console.log(inputs);
+mixed.push(5)
+mixed.push('mario')
+mixed.push(false)
+console.log(mixed);
 
-inputs.forEach(input => console.log(input))
+let ninja: { name: any, age: any };
+
+ninja = {
+  name: 'yoshi',
+  age: 25
+}
+console.log(ninja);
+
+ninja = {
+  name: 25,
+  age: 'yoshi'
+}
+console.log(ninja);
