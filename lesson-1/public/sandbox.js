@@ -10,7 +10,8 @@ const add = (a, b, c = 10) => {
 };
 add(5, 18, '20');
 const minus = (a, b) => {
-    return a + b;
+    return a + b + 3;
 };
 let result = minus(10, 7);
+console.log(result);
 // result = 'some string'
