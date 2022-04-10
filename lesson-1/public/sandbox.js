@@ -1,2 +1,16 @@
 "use strict";
-console.log('mario');
+let greet;
+// greet = 'hello'
+greet = () => {
+    console.log('hello Pedro');
+};
+const add = (a, b, c = 10) => {
+    console.log(a + b);
+    console.log(c);
+};
+add(5, 18, '20');
+const minus = (a, b) => {
+    return a + b;
+};
+let result = minus(10, 7);
+// result = 'some string'
